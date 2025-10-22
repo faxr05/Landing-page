@@ -7,7 +7,7 @@
 
 body{
     width: 100%;
-    overflow: visible;
+    overflow: hidden;
     min-height: 100vh;
     flex-direction: column;
     display: flex;
@@ -21,7 +21,7 @@ main{
     justify-content: space-between;
     flex-direction: column;
     width: 900px;
-    height: 550px;
+    min-height: 100vh;
     border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: -7px 10px 111px -33px rgba(0,0,0,0.75);
