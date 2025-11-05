@@ -7,21 +7,20 @@
 
 body{
     width: 100%;
-    overflow: hidden;
     height: 100vh;
-    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background-color: #191629;
 }
 main{
     position: relative;
-    display: block;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 900px;
-    height: 100vh;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: -7px 10px 111px -33px rgba(0,0,0,0.75);
@@ -179,17 +178,4 @@ button{
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-}
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    border-top: 1px solid rgba(255,255,255,0.2);
-    backdrop-filter: blur(5px);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     }
